@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Header">19sp</dimen>
+    <dimen name="Title">17sp</dimen>
+    <dimen name="Subtile">14sp</dimen>
+    <dimen name="Input">14sp</dimen>
+    <dimen name="Button">15sp</dimen>
+    <dimen name="TextButton">13sp</dimen>
+</resources>

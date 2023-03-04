@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".Activity.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="25dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_id_card"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="5dp"
+            android:background="@color/line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/zen_regular"
+            android:text="@string/nomerIndukSiswa"
+            android:textColor="@color/fontLabel"
+            android:textSize="@dimen/Subtile" />
+
+        <TextView
+            android:id="@+id/TV_indukSiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="@string/ExmpNis"
+            android:textAlignment="center"
+            android:textColor="@color/fontTitle"
+            android:textSize="@dimen/Button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/zen_regular"
+                    android:text="@string/nameUser"
+                    android:textColor="@color/fontLabel"
+                    android:textSize="@dimen/Subtile" />
+
+                <TextView
+                    android:id="@+id/TV_nameSiswa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="@string/ExmpName"
+                    android:textAlignment="center"
+                    android:textColor="@color/fontTitle"
+                    android:textSize="@dimen/Button" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/zen_regular"
+                    android:text="@string/emailUser"
+                    android:textColor="@color/fontLabel"
+                    android:textSize="@dimen/Subtile" />
+
+                <TextView
+                    android:id="@+id/TV_emailSiswa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="@string/ExmpEmail"
+                    android:textAlignment="center"
+                    android:textColor="@color/fontTitle"
+                    android:textSize="@dimen/Button" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/line" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAbsen"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/btnColor"
+            android:fontFamily="@font/zen_bold"
+            android:text="@string/btnAbsen"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Button"
+            app:cornerRadius="5dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogOut"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:backgroundTint="@color/error"
+            android:fontFamily="@font/zen_bold"
+            android:text="@string/LogOut"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/Button"
+            app:cornerRadius="5dp" />
+
+    </LinearLayout>
+
+</ScrollView>

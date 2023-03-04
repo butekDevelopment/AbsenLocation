@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AbsenLocation</string>
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="subRegister">Lakukan pendaftaran NIS untuk dapat mengaksesnya</string>
+    <string name="namaSekolah">SMA NEGERI 1 PAITON</string>
+    <string name="NIS">Email</string>
+    <string name="password">Password</string>
+    <string name="repeatPassword">Repeat Password</string>
+    <string name="daftar">Lakukan Pendaftaran</string>
+    <string name="kembaliLogin">Sudah melakukan pendaftaran</string>
+    <string name="btnStartLog">Mulai</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnAbsen">Absensi</string>
+    <string name="messageHome">Silakan tekan tombol mulai\nuntuk memproses pengambilan log lokasi</string>
+    <string name="welcome">Welcome Home</string>
+    <string name="nameUser">Nama Siswa</string>
+    <string name="emailUser">Email Siswa</string>
+    <string name="nomerIndukSiswa">Nomer Induk Siswa</string>
+    <string name="ExmpNis" tools:ignore="TypographyDashes">S-20551645-0162-7051</string>
+    <string name="ExmpName">ALVIN KURNIAWAN</string>
+    <string name="ExmpEmail">alvin_kurniawan@mail.test</string>
+    <string name="LogOut">Keluar</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#F5F5F5</color>
+    <color name="backgroudInput">#EDEDED</color>
+    <color name="line">#e3e3e3</color>
+    <color name="fontTitle">#333333</color>
+    <color name="fontSubTitle">#5F5F5F</color>
+    <color name="fontLabel">#909090</color>\
+    <color name="fontHint">#BFBFBF</color>
+    <color name="btnColor">#1976d2</color>
+    <color name="textButtonColor">#1976d2</color>
+
+    <!--  Color Snackbar  -->
+    <color name="warning">#FFC107</color>
+    <color name="info">#2196F3</color>
+    <color name="success">#4CAF50</color>
+    <color name="error">#E91E1E</color>
+    <color name="messageBlack">#000</color>
+    <color name="messageWhite">#fff</color>
+    <color name="messageRefresh">#14009EFF</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/drawable-v24/ic_login_bk.xml" value="0.332" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/drawable-v24/login_shape_bk.xml" value="0.332" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/drawable/ic_exam.xml" value="0.332" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/drawable/ic_id_card.xml" value="0.1375" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/drawable/ic_resume_review.xml" value="0.195" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/drawable/ic_sign_in.xml" value="0.2015" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/layout/activity_listview.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/layout/activity_loglocation.xml" value="0.22" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/layout/activity_register.xml" value="0.296875" />
+        <entry key="..\:/Users/Irvan/AndroidStudioProjects/AbsenLocation/app/src/main/res/layout/layout.xml" value="0.3671794871794872" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
